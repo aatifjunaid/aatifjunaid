@@ -1,6 +1,6 @@
 # Hi, I'm Aatif 👋
 
-I’m a BTech engineering student passionate about Artificial Intelligence and problem-solving.  
+I’m an Electronics and Communications engineering student at Netaji Subhas University of Technology, passionate about Artificial Intelligence and problem-solving.  
 Currently strengthening my foundations in Python, Data Structures & Algorithms, and AI/ML to prepare for tech internships.  
 I believe in continuous improvement — technically, physically, and personally.
 
@@ -9,6 +9,7 @@ I believe in continuous improvement — technically, physically, and personally.
 - Python for AI/ML
 - Building hands-on projects
 - Internship preparation
+- Contributing to open-source software
 
 ## 🛠 Projects
 ### Blind Assistance Wearable Device
@@ -22,6 +23,3 @@ A tool that extracts and generates concise summaries from PDF documents using te
 - Data Structures & Algorithms
 - Arduino & Embedded Systems
 - Ai/Ml
-
-## 🎯 Goal
-To build impactful AI-driven solutions and grow into a strong software engineer.
