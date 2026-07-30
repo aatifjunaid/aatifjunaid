@@ -4,14 +4,14 @@ I’m an Electronics and Communications engineering student at Netaji Subhas Uni
 Currently strengthening my foundations in Python, Data Structures & Algorithms, and AI/ML to prepare for tech internships.  
 I believe in continuous improvement — technically, physically, and personally.
 
-## 🚀 Currently Working On
+##  Currently Working On
 - DSA practice
 - Python for AI/ML
 - Building hands-on projects
 - Internship preparation
 - Contributing to open-source software
 
-## 🛠 Projects
+##  Projects
 ### UART Transmitter | Verilog HDL, RTL Design, Finite State Machines (FSM)
 Designed and implemented an 8-bit UART transmitter in Verilog HDL using a Finite State Machine (FSM). The design performs serial data transmission with configurable baud-rate control using a shift register for data serialization. A custom Verilog testbench was developed to verify the transmitter through simulation and waveform analysis, validating correct UART frame generation and state transitions.
 
@@ -28,7 +28,7 @@ A tool that extracts and generates concise summaries from PDF documents using te
 A unified smart EV slot finder app targeting the Indian market, built with a Python Flask REST API and SQLite backend. Designed to be OCPP-compatible and open-source, enabling real-time EV charging slot discovery and booking.
 
 
-## 💻 Technical Skills
+##  Technical Skills
 - C++
 - Python
 - Data Structures & Algorithms
