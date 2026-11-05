@@ -1,37 +1,40 @@
-# Hi, I'm Aatif Junaid 
+# Hi, I'm Aatif Junaid
 
-I’m an Electronics and Communications engineering student at Netaji Subhas University of Technology, passionate about Artificial Intelligence and problem-solving.  
-Currently strengthening my foundations in Python, Data Structures & Algorithms, and AI/ML to prepare for tech internships.  
-I believe in continuous improvement — technically, physically, and personally.
+Final-year B.Tech ECE student at Netaji Subhas University of Technology (NSUT), targeting processor design and verification. I work in RTL design, pipelined processor architecture, constrained-random verification, SVA and functional coverage.
 
-##  Currently Working On
-- DSA practice
-- Python for AI/ML
-- Building hands-on projects
-- Internship preparation
-- Contributing to open-source software
+## Projects
 
-##  Projects
-### UART Transmitter | Verilog HDL, RTL Design, Finite State Machines (FSM)
-Designed and implemented an 8-bit UART transmitter in Verilog HDL using a Finite State Machine (FSM). The design performs serial data transmission with configurable baud-rate control using a shift register for data serialization. A custom Verilog testbench was developed to verify the transmitter through simulation and waveform analysis, validating correct UART frame generation and state transitions.
+### 5-Stage Pipelined RISC-V (RV32I) Core | Verilog, SystemVerilog, SVA
+- Designed a 5-stage pipelined core supporting 8 instructions, with data forwarding, a 1-cycle load-use stall and a 2-instruction branch flush.
+- Verified with a self-checking testbench running 5 assembly programs against a single-cycle reference model, comparing all 32 registers and 256 memory words (5/5 passing).
+- Added 4 SVA assertions (x0 = 0, stall only on load-use, flush only on taken branch, bubble insertion).
 
-### WhatsApp Sentiment Analyzer & Chat Analytics Dashboard | Python, Scikit-learn, Hugging Face, Streamlit, NLP
-A machine learning project that analyzes WhatsApp chat exports to determine sentiment trends across conversations. Built using Python with NLP techniques for text preprocessing and sentiment classification.
+### Synchronous FIFO Verification | SystemVerilog, SVA, Functional Coverage, Cadence Xcelium
+- Developed a class-based, self-checking testbench (constrained-random generator, driver, monitor, queue-based scoreboard) for a parameterized synchronous FIFO.
+- Implemented 17 bound SVA assertions and 4 covergroups with a coverage-closure loop, reaching 100% functional coverage with 0 scoreboard errors and 0 assertion failures.
+- Injected all 10 deliberate RTL bugs and confirmed the testbench caught each one.
+
+### UART Transmitter | Verilog HDL, FSM, RTL Design, Yosys
+- Designed an FSM-based UART transmitter (IDLE/START/DATA/STOP) with a shift register and a parameterized baud rate (100 MHz clock → 9600 baud).
+- Verified with a self-checking testbench using a behavioral receiver model as monitor/checker (15 tests, all passing).
+- Synthesized with Yosys to a gate-level netlist (171 cells, 34 flip-flops) and documented the results in the repo.
 
 ### Blind Assistance Wearable Device | Arduino, C++, Ultrasonic Sensors
-Built using Arduino Uno and ultrasonic sensors to assist visually impaired individuals with obstacle detection. Implemented real-time distance sensing with buzzer feedback.
+- Built a wearable obstacle and elevation-change detector on Arduino Uno using 2 ultrasonic sensors, alerting for obstacles within 80 cm and for raised surfaces or drops.
+- Implemented priority-based alert logic with 5 distinct buzzer patterns, including a timeout fallback for sensor failures.
+- Worked in a 3-member team on hardware integration, testing and enclosure prototyping.
 
+### Other Projects
+- **ChargeNow:** a smart EV slot finder for the Indian market (Python, Flask, SQLite, Leaflet.js).
+- **WhatsApp Sentiment Analyzer:** chat analytics dashboard (Python, Scikit-learn, Hugging Face, Streamlit).
+- **PDF Summarizer with Q&A:** built at NTPC (Python, NLP, FLAN-T5).
 
-### ChargeNow – Smart EV Slot Finder | Python, Flask, SQLite, Leaflet.js
-A unified smart EV slot finder app targeting the Indian market, built with a Python Flask REST API and SQLite backend. Designed to be OCPP-compatible and open-source, enabling real-time EV charging slot discovery and booking.
+## Technical Skills
+- **HDL & Verification:** Verilog HDL, SystemVerilog, SVA, constrained-random verification, functional coverage, self-checking testbenches
+- **Languages:** Python, C++, C, Tcl
+- **Embedded:** Arduino, Microcontrollers, Sensor Integration
+- **Tools:** Cadence Xcelium & Icarus Verilog (EDA Playground), Yosys, Git, GitHub, MATLAB, LTSpice
 
-### Pdf-Summarizer 
-A tool that extracts and generates concise summaries from PDF documents using text processing techniques.
-
-##  Technical Skills
-- C++
-- Python
-- Data Structures & Algorithms
-- Arduino & Embedded Systems
-- Ai/Ml
-- Verilog
+## Internships
+- **BHEL, Noida** (Jun–Jul 2026)
+- **NTPC Limited, Noida** (Jun–Jul 2025)
